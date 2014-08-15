@@ -7,46 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7BD6B85199D7E6B0086CFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD6B84199D7E6B0086CFAE /* AppDelegate.swift */; };
-		A7BD6B88199D7E6B0086CFAE /* ChuckNorris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7BD6B86199D7E6B0086CFAE /* ChuckNorris.xcdatamodeld */; };
-		A7BD6B8A199D7E6B0086CFAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD6B89199D7E6B0086CFAE /* ViewController.swift */; };
-		A7BD6B8D199D7E6B0086CFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7BD6B8B199D7E6B0086CFAE /* Main.storyboard */; };
-		A7BD6B8F199D7E6B0086CFAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7BD6B8E199D7E6B0086CFAE /* Images.xcassets */; };
-		A7BD6B9B199D7E6B0086CFAE /* ChuckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BD6B9A199D7E6B0086CFAE /* ChuckNorrisTests.swift */; };
+		A742FF04199D82FD0053B2EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742FF03199D82FD0053B2EE /* AppDelegate.swift */; };
+		A742FF07199D82FD0053B2EE /* ChuckNorris.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A742FF05199D82FD0053B2EE /* ChuckNorris.xcdatamodeld */; };
+		A742FF09199D82FD0053B2EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742FF08199D82FD0053B2EE /* ViewController.swift */; };
+		A742FF0C199D82FD0053B2EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A742FF0A199D82FD0053B2EE /* Main.storyboard */; };
+		A742FF0E199D82FD0053B2EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A742FF0D199D82FD0053B2EE /* Images.xcassets */; };
+		A742FF1A199D82FD0053B2EE /* ChuckNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A742FF19199D82FD0053B2EE /* ChuckNorrisTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A7BD6B95199D7E6B0086CFAE /* PBXContainerItemProxy */ = {
+		A742FF14199D82FD0053B2EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A7BD6B77199D7E6B0086CFAE /* Project object */;
+			containerPortal = A742FEF6199D82FD0053B2EE /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7BD6B7E199D7E6B0086CFAE;
+			remoteGlobalIDString = A742FEFD199D82FD0053B2EE;
 			remoteInfo = ChuckNorris;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A7BD6B7F199D7E6B0086CFAE /* ChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7BD6B83199D7E6B0086CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7BD6B84199D7E6B0086CFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7BD6B87199D7E6B0086CFAE /* ChuckNorris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChuckNorris.xcdatamodel; sourceTree = "<group>"; };
-		A7BD6B89199D7E6B0086CFAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A7BD6B8C199D7E6B0086CFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7BD6B8E199D7E6B0086CFAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A7BD6B94199D7E6B0086CFAE /* ChuckNorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckNorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7BD6B99199D7E6B0086CFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7BD6B9A199D7E6B0086CFAE /* ChuckNorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisTests.swift; sourceTree = "<group>"; };
+		A742FEFE199D82FD0053B2EE /* ChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A742FF02199D82FD0053B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A742FF03199D82FD0053B2EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A742FF06199D82FD0053B2EE /* ChuckNorris.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChuckNorris.xcdatamodel; sourceTree = "<group>"; };
+		A742FF08199D82FD0053B2EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A742FF0B199D82FD0053B2EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A742FF0D199D82FD0053B2EE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A742FF13199D82FD0053B2EE /* ChuckNorrisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChuckNorrisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A742FF18199D82FD0053B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A742FF19199D82FD0053B2EE /* ChuckNorrisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A7BD6B7C199D7E6B0086CFAE /* Frameworks */ = {
+		A742FEFB199D82FD0053B2EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7BD6B91199D7E6B0086CFAE /* Frameworks */ = {
+		A742FF10199D82FD0053B2EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A7BD6B76199D7E6B0086CFAE = {
+		A742FEF5199D82FD0053B2EE = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B81199D7E6B0086CFAE /* ChuckNorris */,
-				A7BD6B97199D7E6B0086CFAE /* ChuckNorrisTests */,
-				A7BD6B80199D7E6B0086CFAE /* Products */,
+				A742FF00199D82FD0053B2EE /* ChuckNorris */,
+				A742FF16199D82FD0053B2EE /* ChuckNorrisTests */,
+				A742FEFF199D82FD0053B2EE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A7BD6B80199D7E6B0086CFAE /* Products */ = {
+		A742FEFF199D82FD0053B2EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B7F199D7E6B0086CFAE /* ChuckNorris.app */,
-				A7BD6B94199D7E6B0086CFAE /* ChuckNorrisTests.xctest */,
+				A742FEFE199D82FD0053B2EE /* ChuckNorris.app */,
+				A742FF13199D82FD0053B2EE /* ChuckNorrisTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7BD6B81199D7E6B0086CFAE /* ChuckNorris */ = {
+		A742FF00199D82FD0053B2EE /* ChuckNorris */ = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B84199D7E6B0086CFAE /* AppDelegate.swift */,
-				A7BD6B89199D7E6B0086CFAE /* ViewController.swift */,
-				A7BD6B8B199D7E6B0086CFAE /* Main.storyboard */,
-				A7BD6B8E199D7E6B0086CFAE /* Images.xcassets */,
-				A7BD6B86199D7E6B0086CFAE /* ChuckNorris.xcdatamodeld */,
-				A7BD6B82199D7E6B0086CFAE /* Supporting Files */,
+				A742FF03199D82FD0053B2EE /* AppDelegate.swift */,
+				A742FF08199D82FD0053B2EE /* ViewController.swift */,
+				A742FF0A199D82FD0053B2EE /* Main.storyboard */,
+				A742FF0D199D82FD0053B2EE /* Images.xcassets */,
+				A742FF05199D82FD0053B2EE /* ChuckNorris.xcdatamodeld */,
+				A742FF01199D82FD0053B2EE /* Supporting Files */,
 			);
 			path = ChuckNorris;
 			sourceTree = "<group>";
 		};
-		A7BD6B82199D7E6B0086CFAE /* Supporting Files */ = {
+		A742FF01199D82FD0053B2EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B83199D7E6B0086CFAE /* Info.plist */,
+				A742FF02199D82FD0053B2EE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A7BD6B97199D7E6B0086CFAE /* ChuckNorrisTests */ = {
+		A742FF16199D82FD0053B2EE /* ChuckNorrisTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B9A199D7E6B0086CFAE /* ChuckNorrisTests.swift */,
-				A7BD6B98199D7E6B0086CFAE /* Supporting Files */,
+				A742FF19199D82FD0053B2EE /* ChuckNorrisTests.swift */,
+				A742FF17199D82FD0053B2EE /* Supporting Files */,
 			);
 			path = ChuckNorrisTests;
 			sourceTree = "<group>";
 		};
-		A7BD6B98199D7E6B0086CFAE /* Supporting Files */ = {
+		A742FF17199D82FD0053B2EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A7BD6B99199D7E6B0086CFAE /* Info.plist */,
+				A742FF18199D82FD0053B2EE /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7BD6B7E199D7E6B0086CFAE /* ChuckNorris */ = {
+		A742FEFD199D82FD0053B2EE /* ChuckNorris */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7BD6B9E199D7E6B0086CFAE /* Build configuration list for PBXNativeTarget "ChuckNorris" */;
+			buildConfigurationList = A742FF1D199D82FD0053B2EE /* Build configuration list for PBXNativeTarget "ChuckNorris" */;
 			buildPhases = (
-				A7BD6B7B199D7E6B0086CFAE /* Sources */,
-				A7BD6B7C199D7E6B0086CFAE /* Frameworks */,
-				A7BD6B7D199D7E6B0086CFAE /* Resources */,
+				A742FEFA199D82FD0053B2EE /* Sources */,
+				A742FEFB199D82FD0053B2EE /* Frameworks */,
+				A742FEFC199D82FD0053B2EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +129,46 @@
 			);
 			name = ChuckNorris;
 			productName = ChuckNorris;
-			productReference = A7BD6B7F199D7E6B0086CFAE /* ChuckNorris.app */;
+			productReference = A742FEFE199D82FD0053B2EE /* ChuckNorris.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A7BD6B93199D7E6B0086CFAE /* ChuckNorrisTests */ = {
+		A742FF12199D82FD0053B2EE /* ChuckNorrisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7BD6BA1199D7E6B0086CFAE /* Build configuration list for PBXNativeTarget "ChuckNorrisTests" */;
+			buildConfigurationList = A742FF20199D82FD0053B2EE /* Build configuration list for PBXNativeTarget "ChuckNorrisTests" */;
 			buildPhases = (
-				A7BD6B90199D7E6B0086CFAE /* Sources */,
-				A7BD6B91199D7E6B0086CFAE /* Frameworks */,
-				A7BD6B92199D7E6B0086CFAE /* Resources */,
+				A742FF0F199D82FD0053B2EE /* Sources */,
+				A742FF10199D82FD0053B2EE /* Frameworks */,
+				A742FF11199D82FD0053B2EE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A7BD6B96199D7E6B0086CFAE /* PBXTargetDependency */,
+				A742FF15199D82FD0053B2EE /* PBXTargetDependency */,
 			);
 			name = ChuckNorrisTests;
 			productName = ChuckNorrisTests;
-			productReference = A7BD6B94199D7E6B0086CFAE /* ChuckNorrisTests.xctest */;
+			productReference = A742FF13199D82FD0053B2EE /* ChuckNorrisTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A7BD6B77199D7E6B0086CFAE /* Project object */ = {
+		A742FEF6199D82FD0053B2EE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Christopher Rittersdorf";
 				TargetAttributes = {
-					A7BD6B7E199D7E6B0086CFAE = {
+					A742FEFD199D82FD0053B2EE = {
 						CreatedOnToolsVersion = 6.0;
 					};
-					A7BD6B93199D7E6B0086CFAE = {
+					A742FF12199D82FD0053B2EE = {
 						CreatedOnToolsVersion = 6.0;
-						TestTargetID = A7BD6B7E199D7E6B0086CFAE;
+						TestTargetID = A742FEFD199D82FD0053B2EE;
 					};
 				};
 			};
-			buildConfigurationList = A7BD6B7A199D7E6B0086CFAE /* Build configuration list for PBXProject "ChuckNorris" */;
+			buildConfigurationList = A742FEF9199D82FD0053B2EE /* Build configuration list for PBXProject "ChuckNorris" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,28 +176,28 @@
 				en,
 				Base,
 			);
-			mainGroup = A7BD6B76199D7E6B0086CFAE;
-			productRefGroup = A7BD6B80199D7E6B0086CFAE /* Products */;
+			mainGroup = A742FEF5199D82FD0053B2EE;
+			productRefGroup = A742FEFF199D82FD0053B2EE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7BD6B7E199D7E6B0086CFAE /* ChuckNorris */,
-				A7BD6B93199D7E6B0086CFAE /* ChuckNorrisTests */,
+				A742FEFD199D82FD0053B2EE /* ChuckNorris */,
+				A742FF12199D82FD0053B2EE /* ChuckNorrisTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A7BD6B7D199D7E6B0086CFAE /* Resources */ = {
+		A742FEFC199D82FD0053B2EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BD6B8D199D7E6B0086CFAE /* Main.storyboard in Resources */,
-				A7BD6B8F199D7E6B0086CFAE /* Images.xcassets in Resources */,
+				A742FF0C199D82FD0053B2EE /* Main.storyboard in Resources */,
+				A742FF0E199D82FD0053B2EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7BD6B92199D7E6B0086CFAE /* Resources */ = {
+		A742FF11199D82FD0053B2EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,39 +207,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A7BD6B7B199D7E6B0086CFAE /* Sources */ = {
+		A742FEFA199D82FD0053B2EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BD6B8A199D7E6B0086CFAE /* ViewController.swift in Sources */,
-				A7BD6B85199D7E6B0086CFAE /* AppDelegate.swift in Sources */,
-				A7BD6B88199D7E6B0086CFAE /* ChuckNorris.xcdatamodeld in Sources */,
+				A742FF09199D82FD0053B2EE /* ViewController.swift in Sources */,
+				A742FF04199D82FD0053B2EE /* AppDelegate.swift in Sources */,
+				A742FF07199D82FD0053B2EE /* ChuckNorris.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7BD6B90199D7E6B0086CFAE /* Sources */ = {
+		A742FF0F199D82FD0053B2EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7BD6B9B199D7E6B0086CFAE /* ChuckNorrisTests.swift in Sources */,
+				A742FF1A199D82FD0053B2EE /* ChuckNorrisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A7BD6B96199D7E6B0086CFAE /* PBXTargetDependency */ = {
+		A742FF15199D82FD0053B2EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A7BD6B7E199D7E6B0086CFAE /* ChuckNorris */;
-			targetProxy = A7BD6B95199D7E6B0086CFAE /* PBXContainerItemProxy */;
+			target = A742FEFD199D82FD0053B2EE /* ChuckNorris */;
+			targetProxy = A742FF14199D82FD0053B2EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A7BD6B8B199D7E6B0086CFAE /* Main.storyboard */ = {
+		A742FF0A199D82FD0053B2EE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A7BD6B8C199D7E6B0086CFAE /* Base */,
+				A742FF0B199D82FD0053B2EE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -247,7 +247,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A7BD6B9C199D7E6B0086CFAE /* Debug */ = {
+		A742FF1B199D82FD0053B2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -290,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		A7BD6B9D199D7E6B0086CFAE /* Release */ = {
+		A742FF1C199D82FD0053B2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -326,7 +326,7 @@
 			};
 			name = Release;
 		};
-		A7BD6B9F199D7E6B0086CFAE /* Debug */ = {
+		A742FF1E199D82FD0053B2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -337,7 +337,7 @@
 			};
 			name = Debug;
 		};
-		A7BD6BA0199D7E6B0086CFAE /* Release */ = {
+		A742FF1F199D82FD0053B2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -348,7 +348,7 @@
 			};
 			name = Release;
 		};
-		A7BD6BA2199D7E6B0086CFAE /* Debug */ = {
+		A742FF21199D82FD0053B2EE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -367,7 +367,7 @@
 			};
 			name = Debug;
 		};
-		A7BD6BA3199D7E6B0086CFAE /* Release */ = {
+		A742FF22199D82FD0053B2EE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -385,45 +385,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7BD6B7A199D7E6B0086CFAE /* Build configuration list for PBXProject "ChuckNorris" */ = {
+		A742FEF9199D82FD0053B2EE /* Build configuration list for PBXProject "ChuckNorris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7BD6B9C199D7E6B0086CFAE /* Debug */,
-				A7BD6B9D199D7E6B0086CFAE /* Release */,
+				A742FF1B199D82FD0053B2EE /* Debug */,
+				A742FF1C199D82FD0053B2EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7BD6B9E199D7E6B0086CFAE /* Build configuration list for PBXNativeTarget "ChuckNorris" */ = {
+		A742FF1D199D82FD0053B2EE /* Build configuration list for PBXNativeTarget "ChuckNorris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7BD6B9F199D7E6B0086CFAE /* Debug */,
-				A7BD6BA0199D7E6B0086CFAE /* Release */,
+				A742FF1E199D82FD0053B2EE /* Debug */,
+				A742FF1F199D82FD0053B2EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		A7BD6BA1199D7E6B0086CFAE /* Build configuration list for PBXNativeTarget "ChuckNorrisTests" */ = {
+		A742FF20199D82FD0053B2EE /* Build configuration list for PBXNativeTarget "ChuckNorrisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A7BD6BA2199D7E6B0086CFAE /* Debug */,
-				A7BD6BA3199D7E6B0086CFAE /* Release */,
+				A742FF21199D82FD0053B2EE /* Debug */,
+				A742FF22199D82FD0053B2EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A7BD6B86199D7E6B0086CFAE /* ChuckNorris.xcdatamodeld */ = {
+		A742FF05199D82FD0053B2EE /* ChuckNorris.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A7BD6B87199D7E6B0086CFAE /* ChuckNorris.xcdatamodel */,
+				A742FF06199D82FD0053B2EE /* ChuckNorris.xcdatamodel */,
 			);
-			currentVersion = A7BD6B87199D7E6B0086CFAE /* ChuckNorris.xcdatamodel */;
+			currentVersion = A742FF06199D82FD0053B2EE /* ChuckNorris.xcdatamodel */;
 			path = ChuckNorris.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = A7BD6B77199D7E6B0086CFAE /* Project object */;
+	rootObject = A742FEF6199D82FD0053B2EE /* Project object */;
 }

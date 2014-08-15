@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yaI-A5-ciy">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
         <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
@@ -17,53 +17,74 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chuck Norris Facts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yon-cd-gDb">
-                                <rect key="frame" x="226" y="289" width="148" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GR Cocoaheads Chuck Norris App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Trj-JR-Ba9">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="368" id="T9D-zD-BxQ"/>
+                                    <constraint firstAttribute="width" constant="368" id="Ozx-z8-XvN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="default">
                                     <mask key="constraints">
-                                        <exclude reference="T9D-zD-BxQ"/>
+                                        <exclude reference="Ozx-z8-XvN"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact">
                                     <mask key="constraints">
-                                        <include reference="T9D-zD-BxQ"/>
+                                        <include reference="Ozx-z8-XvN"/>
                                     </mask>
-                                </variation>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="389" width="148" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Yon-cd-gDb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="5aQ-GN-Kd2"/>
-                            <constraint firstItem="Yon-cd-gDb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="baj-iJ-Ynb"/>
-                            <constraint firstItem="Yon-cd-gDb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="vqk-6n-txm"/>
+                            <constraint firstItem="Trj-JR-Ba9" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="49" id="khL-fA-9ew"/>
+                            <constraint firstItem="Trj-JR-Ba9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="p7y-pL-khO"/>
+                            <constraint firstItem="Trj-JR-Ba9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="pZq-77-yqy"/>
                         </constraints>
                         <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Trj-JR-Ba9"/>
+                            </mask>
                             <mask key="constraints">
-                                <exclude reference="5aQ-GN-Kd2"/>
-                                <exclude reference="baj-iJ-Ynb"/>
-                                <exclude reference="vqk-6n-txm"/>
+                                <exclude reference="khL-fA-9ew"/>
+                                <exclude reference="p7y-pL-khO"/>
+                                <exclude reference="pZq-77-yqy"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Trj-JR-Ba9"/>
+                            </mask>
                             <mask key="constraints">
-                                <include reference="5aQ-GN-Kd2"/>
-                                <include reference="baj-iJ-Ynb"/>
-                                <include reference="vqk-6n-txm"/>
+                                <include reference="khL-fA-9ew"/>
+                                <include reference="p7y-pL-khO"/>
+                                <include reference="pZq-77-yqy"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="Z21-my-R5x"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="201" y="1031"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pXa-Iw-F4i">
+            <objects>
+                <navigationController id="yaI-A5-ciy" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xmh-il-ddn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JzD-BF-YCz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZz-dg-7Tb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-512" y="1039"/>
         </scene>
     </scenes>
 </document>
